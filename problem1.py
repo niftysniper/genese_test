@@ -8,5 +8,6 @@ for p in range(L//4*2, L+1, 2):
             if t >= t_max:
                 t_max, p_max = t, p
 
+                
 print("Maximum perimeter, p <=", L, "is", p_max)
 
